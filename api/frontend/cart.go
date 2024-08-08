@@ -22,7 +22,7 @@ type DeleteCartRes struct {
 }
 
 type ListCartReq struct {
-	g.Meta `path:"/cart/list" method:"post" tags:"前台购物车" summary:"购物车列表"`
+	g.Meta `path:"/cart/list" method:"get" tags:"前台购物车" summary:"购物车列表"`
 	CommonPaginationReq
 }
 
